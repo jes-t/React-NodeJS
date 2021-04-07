@@ -15,7 +15,7 @@ export const useAuth = () => {
       JSON.stringify({ userId: id, token: jwtToken })
     )
   }, [])
-  const logOut = useCallback(() => {
+  const logout = useCallback(() => {
     setToken(null)
     setUserId(null)
     localStorage.removeItem(storageName)
@@ -28,5 +28,5 @@ export const useAuth = () => {
     }
   }, [login])
 
-  return { login, logOut, token, userId }
+  return { login, logout, token, userId }
 }
