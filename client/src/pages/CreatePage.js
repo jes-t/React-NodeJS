@@ -35,7 +35,7 @@ export const CreatePage = () => {
         <div className="input-field">
           <input
             placeholder="Вставьте ссылку"
-            id="дштл"
+            id="link"
             type="text"
             onChange={(e) => {
               setLink(e.target.value)
