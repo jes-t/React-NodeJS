@@ -21,6 +21,7 @@
     "mongoose": "^5.12.3",
     "nanoid": "^3.1.22"
   },
+  "proxy": "http://localhost:3000",
   "devDependencies": {
     "concurrently": "^6.0.0",
     "nodemon": "^2.0.7"

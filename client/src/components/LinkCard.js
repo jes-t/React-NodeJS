@@ -8,13 +8,13 @@ export const LinkCard = ({ link }) => {
         Ваша ссылка:{' '}
         <a href={link.to} target="_blank" rel="noreferrer noopener ">
           {link.to}
-        </a>{' '}
+        </a>
       </p>
       <p>
         Откуда ссылка:{' '}
         <a href={link.from} target="_blank" rel="noreferrer noopener ">
           {link.from}
-        </a>{' '}
+        </a>
       </p>
       <p>
         Количество кликов по ссылке: <strong>{link.clicks}</strong>{' '}
